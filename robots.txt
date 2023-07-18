@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://gustcab.github.io/sitemap.xml
