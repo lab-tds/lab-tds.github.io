@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gustcab.github.io/sitemap.xml
+Sitemap: https://lab-tds.github.io/sitemap.xml
