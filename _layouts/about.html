@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
@@ -12,12 +13,17 @@ layout: default
         </header>
 
         <article>
-          {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-            {%- if page.profile.image %}
-              {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-              {% if page.profile.image_circular %}
+          <div class="clearfix">
+            {{ content }}
+          </div>
+
+          {% if page.profile -%}
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}" style="margin: 10%">
+            {%- if page.profile.image_daniel %}
+              {%- assign profile_image_path = page.profile.image_daniel | prepend: 'assets/img/' -%}
+
+              {% if page.profile.image__daniel_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
@@ -28,17 +34,37 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
+            {%- if page.profile.address_daniel %}
+            <div class="address" style="text-align: center;">
+              {{ page.profile.address_daniel }}
             </div>
             {%- endif %}
           </div>
+
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}" style="margin: 10%">
+            {%- if page.profile.image_omero %}
+              {%- assign profile_image_path = page.profile.image_omero | prepend: 'assets/img/' -%}
+
+              {% if page.profile.image__omero_circular %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+              {% else %}
+                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              {% endif %}
+
+              {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=page.profile.image -%}
+            {% endif -%}
+            {%- if page.profile.address_omero %}
+            <div class="address" style="text-align: center;">
+              {{ page.profile.address_omero }}
+            </div>
+            {%- endif %}
+          </div>
+
           {%- endif %}
 
-          <div class="clearfix">
-            {{ content }}
-          </div>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
@@ -46,11 +72,11 @@ layout: default
             {%- include news.html limit=true %}
           {%- endif %}
 
-          <!-- Latest posts -->
+          <!-- Latest posts
           {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
             {%- include latest_posts.html %}
-          {%- endif %}
+          {%- endif %} -->
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
