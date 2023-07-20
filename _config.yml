@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: Laboratory for Translational Data Science # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Laboratory
+middle_name: for Translational
+last_name: Data Science
 email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -71,7 +71,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: lab-tds # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
@@ -107,7 +107,7 @@ discord_id: # your discord id (18-digit unique numerical identifier)
 zotero: # your zotero username
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  New ways to contact us coming soon.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -127,6 +127,13 @@ blog_name: al-folio # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
+
+# -----------------------------------------------------------------------------
+# Team
+# -----------------------------------------------------------------------------
+
+team: 
+team_nav_title: team
 
 # Pagination
 pagination:

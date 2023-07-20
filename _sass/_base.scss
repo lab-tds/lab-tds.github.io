@@ -2,6 +2,47 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+ // Custom cards About Page (icons About Leadership; Focus)
+
+ .custom-card {
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.custom-img {
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+}
+
+.custom-text {
+  font-size: 1.5rem; 
+  text-align: justify;
+  opacity: 0;
+  color: rgba(0, 0, 0, 0.8);
+  color: #000000;
+  transition: opacity 0.3s;
+  padding: auto;
+}
+
+.custom-card:hover .custom-img {
+  opacity: 0.1;
+}
+
+.custom-card:hover .custom-text {
+  opacity: 1;
+}
+
+
 // Typography
 
 p,
