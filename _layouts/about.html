@@ -7,9 +7,10 @@ layout: default
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+        {{ site.first_name }} <span class="font-weight-bold">{{ site.middle_name }} {{ site.last_name }}
+          <img src="assets/img/logo_lab.png" style="width: 10%;"> 
           </h1>
-          <p class="desc">{{ page.subtitle }}</p>
+          <a href="https://site.hcrp.usp.br/" class="desc">{{ page.subtitle }}</a>
         </header>
 
           <div class="clearfix">
@@ -18,14 +19,14 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2 style="margin-top: 2%;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 

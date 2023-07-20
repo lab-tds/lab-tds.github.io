@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Assistant Physician at the Mastology and Gynecological Oncology Sector at HCFMRP-USP and also a postgraduate student at the Laboratory for Translational Data Science presents new study at the Brazilian Breast Cancer Symposium 2023. 
-date: 2023-07-20 16:11:00-0400
+title: Isabela Carlotti wins Jose Aristodemo Pinotti award at Brazilian Breast Cancer Symposium 2023
+date: 2023-07-19 16:11:00-0400
 inline: false
 related_posts: false
 ---

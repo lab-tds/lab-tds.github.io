@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Laboratory for Translational Data Science # the website title (if blank, full name will be used instead)
-first_name: Laboratory
-middle_name: for Translational
+title:  # the website title (if blank, full name will be used instead)
+first_name: Laboratory for
+middle_name: Translational
 last_name: Data Science
 email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -128,12 +128,6 @@ blog_nav_title: blog # your blog must have a title for it to be displayed in the
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
-# -----------------------------------------------------------------------------
-# Team
-# -----------------------------------------------------------------------------
-
-team: 
-team_nav_title: team
 
 # Pagination
 pagination:
