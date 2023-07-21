@@ -83,6 +83,27 @@ social: true  # includes social icons at the bottom of the page
       <p class="card-text text-center" style="font-size: 0.9rem;">Associate Professor of the Gynecology and Obstetrics Department Ribeirão Preto Medical School – University of Sao Paulo. Center of Pelvic Oncology and Mastology</p>
     </div>
   </div>
+ </div>
+ </div>
+
+<div class="container" style="margin-bottom: 4%">
+<h1>Institutions and Supporters</h1>
+<hr>
+  <div class="row row-cols-5 mt-4">
+    <div class="col"> <a href="https://www5.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logo_usp.jpg" style="width: 90%"> </a> </div>
+    <div class="col"> <a href="https://www.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoFmrp.png" style="width: 70%"> </a> </div>
+     <div class="col"> <a href="https://biobanco.fmrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoBiobanco.png" style="width: 70%"> </a> </div>
+    <div class="col"> <a href="https://site.hcrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoHc.png" style="width: 80%"> </a> </div>
+    <div class="col"> <a href="https://www.gov.br/capes/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCapes.png" style="width: 70%"> </a> </div>
+  </div>
+  <div class="row row-cols-5 mt-4">
+    <div class="col"> <a href="https://posgo.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoPpgo.png" style="width: 90%"> </a> </div>
+    <div class="col"> <a href="https://rgo.fmrp.usp.br/pb/"> <img src="{{ site.url }}/assets/img/logopic/logoGO.png" style="width: 90%"> </a> </div>
+    <div class="col"> <a href="https://www.gov.br/cnpq/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCnpq.png" style="width: 90%"> </a> </div>
+    <div class="col"> <a href="https://fapesp.br/"><img src="{{ site.url }}/assets/img/logopic/logoFapesp.png" style="width: 90%"> </a> </div>
+    <div class="col"> <a href="https://faepa.br/"><img src="{{ site.url }}/assets/img/logopic/logoFaepa.png" style="width: 90%"> </a> </div>
+  </div>
+  <hr>
 </div>
-</div>
+
 

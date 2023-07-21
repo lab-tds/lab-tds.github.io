@@ -1,7 +1,7 @@
 ---
 layout: gridlay
 permalink: /team/
-title: Team
+title: team
 description:
 nav: true
 nav_order: 0
