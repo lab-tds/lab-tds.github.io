@@ -23,7 +23,7 @@
 }
 
 .custom-text {
-  font-size: 1.7rem; 
+  font-size: 1.5rem; 
   text-align: justify;
   color: rgba(0, 0, 0, 0.8);
   color: #000000;
@@ -342,6 +342,41 @@ blockquote {
   }
 }
 
+// Team Page
+
+.team-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team {
+  margin-top: 2%;
+  width: 50%;
+}
+
+.team-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.team-icons a {
+  margin: 1%; 
+  font-size: 2rem;
+  color: #555;
+}
+
+.team-icons a:hover {
+  color: #007bff;
+}
+
+.team-icons img {
+ width: 100%;
+}
+
+.team-icons img:hover {
+  opacity: 0.8;
+}
+
 // Social (bottom)
 
 .social {
@@ -392,10 +427,26 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
+  background-color: var(--global-footer-bg-color);
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 0.9rem;
+
+  .container {
+    color: var(--global-footer-text-color);
+    padding-top: 9px;
+    padding-bottom: 8px;
+  }
+
+  a {
+    color: var(--global-footer-link-color);
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
 }
 
 // CV
@@ -540,6 +591,15 @@ footer.sticky-bottom {
     border-bottom-color: var(--global-theme-color);
     text-decoration: none;
   }
+}
+
+// Button To Top
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 3%;
+  right: 5%;
+  display: none;
 }
 
 

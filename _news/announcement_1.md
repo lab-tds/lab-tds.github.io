@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-The work was awarded by the Brazilian Society of Mastology and will be presented at an International Congress in Italy.
+Isabela developed the research in partnership with the [Laboratory for Translational Data Science team]()
 
 ***
 

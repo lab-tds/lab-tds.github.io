@@ -26,7 +26,7 @@ social: true  # includes social icons at the bottom of the page
   </ol>
 
   <!-- Items -->
-  <div class="carousel-inner">
+  <div class="carousel-inner mb-4">
     <div class="carousel-item active">
       <img src="assets/img/carousel_hc.png" alt="Slide 1" />
     </div>
@@ -51,24 +51,22 @@ social: true  # includes social icons at the bottom of the page
   </a>
 </div>
 
+## Applying Data Science To Improve Women's Health
 <!--Cards About-->
-
-<div class="container mt-4 mb-4">
-<h1>Applying Data Science To Improve Women's Health</h1>
+<div class="container mb-4">
 <br>
     <!-- <img src="assets/img/icon_focus.png" class="custom-img">  -->
-      <p class="custom-text" style="margin: 1%">Our research focuses on Pelvic Pain and Gynecological Tumors, especially on the analysis of epidemiological, molecular, and genomic data on a large scale from endometriosis and breast and ovarian cancer. Broadly, we aim to generate new scientific evidences which can impact clinical practice, healthcare and public health policy.</p>
-    
+      <p class="custom-text" style="margin: 1%">Our research focuses on Pelvic Pain and Gynecological Tumors, especially on the analysis of epidemiological, molecular, and genomic data on a large scale from endometriosis and breast and ovarian cancer. Broadly, we aim to generate new scientific evidences which can impact clinical practice, healthcare and public health policy.</p> 
 </div>
 
+## Principal Investigators
 
 <!--Authors PI-->
 
-<div class="container mt-4" style="margin-bottom: 4%">
- <h1>Principal Investigators</h1>
+<div class="container mb-6">
 <div class="card-group mt-4">
-  <div class="card mr-4">
-    <img src="assets/img/omero_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 200px; height: 250px; border-radius: 10%;">
+  <div class="card">
+    <img src="assets/img/omero_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 40%; border-radius: 10%;">
     <div class="card-body">
       <h2 class="card-title text-center">Omero Benedicto Poli-Neto</h2>
       <h1 class="card-text text-center" style="font-size: 1.5rem;">Gynecologic surgery, Oncogynecology and Data Science</h1>
@@ -76,7 +74,7 @@ social: true  # includes social icons at the bottom of the page
     </div>
   </div>
   <div class="card">
-    <img src="assets/img/daniel_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 200px; height: 250px; border-radius: 10%;">
+    <img src="assets/img/daniel_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 35%; border-radius: 10%;">
     <div class="card-body text-center">
       <h2 class="card-title">Daniel Guimarães Tiezzi</h2>
       <p class="card-text text-center" style="font-size: 1.5rem;">Clinical oncology, Mastology and Data Science</p>
@@ -86,17 +84,18 @@ social: true  # includes social icons at the bottom of the page
  </div>
  </div>
 
-<div class="container" style="margin-bottom: 4%">
-<h1>Institutions and Supporters</h1>
+<br>
+## Institutions and Supporters
+<div class="container mb-4">
 <hr>
-  <div class="row row-cols-5 mt-4">
+  <div class="row mt-4">
     <div class="col"> <a href="https://www5.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logo_usp.jpg" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://www.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoFmrp.png" style="width: 70%"> </a> </div>
      <div class="col"> <a href="https://biobanco.fmrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoBiobanco.png" style="width: 70%"> </a> </div>
     <div class="col"> <a href="https://site.hcrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoHc.png" style="width: 80%"> </a> </div>
     <div class="col"> <a href="https://www.gov.br/capes/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCapes.png" style="width: 70%"> </a> </div>
   </div>
-  <div class="row row-cols-5 mt-4">
+  <div class="row mt-4">
     <div class="col"> <a href="https://posgo.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoPpgo.png" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://rgo.fmrp.usp.br/pb/"> <img src="{{ site.url }}/assets/img/logopic/logoGO.png" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://www.gov.br/cnpq/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCnpq.png" style="width: 90%"> </a> </div>

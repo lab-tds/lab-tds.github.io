@@ -1,5 +1,6 @@
 github_users:
   - dtiezzi
+  - polineto
   - alekfrohlich
   - gustcab
 
@@ -10,4 +11,3 @@ github_repos:
   - jquery/jquery
   - FortAwesome/Font-Awesome
   - jpswalsh/academicons
-  - mathjax/MathJax

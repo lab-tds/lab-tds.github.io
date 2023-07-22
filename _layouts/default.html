@@ -17,6 +17,7 @@
 
     <!-- Content -->
     <div class="container mt-5">
+     
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == "right" %}
         <div class="row">
@@ -44,6 +45,11 @@
       {% else %}
         {{ content }}
       {% endif %}
+    
+      <!--Back to top button-->
+      <button type="button" class="btn btn-info btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fa-solid fa-arrow-up"></i> </button>
+
     </div>
 
     <!-- Footer -->
@@ -58,5 +64,6 @@
     {% include scripts/mathjax.html %}
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
+    {% include scripts/buttonTop.html %}
   </body>
 </html>

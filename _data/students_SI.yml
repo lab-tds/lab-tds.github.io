@@ -1,0 +1,46 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Gustavo Motta Cabello dos Santos
+  photo: gustavo_SI.jpeg
+  info: Scientific initiation student - Webmaster
+  email: m.ortego.larrazabal@umail.leidenuniv.nl
+  lattes: http://lattes.cnpq.br/3720529951646870
+  orcid:
+  github: https://github.com/gustcab
+  gscholar:
+
+
+- name: Ana Laura de Arruda Villas Boas
+  photo: member.png
+  info: Scientific initiation student
+  email: m.ortego.larrazabal@umail.leidenuniv.nl
+  lattes:
+  orcid:
+  github:
+  gscholar:
+
+- name: Daniely Franco Francisco
+  photo: member.png
+  info: Scientific initiation student
+  email: m.ortego.larrazabal@umail.leidenuniv.nl
+  lattes:
+  orcid:
+  github:
+  gscholar:
+
+- name: Yasmin Baptista Niebas
+  photo: member.png
+  info: Scientific initiation student
+  email: m.ortego.larrazabal@umail.leidenuniv.nl
+  lattes:
+  orcid:
+  github:
+  gscholar:

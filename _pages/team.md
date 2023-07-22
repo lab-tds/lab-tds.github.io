@@ -8,28 +8,19 @@ nav_order: 0
 sitemap: false
 ---
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+## Group Members
 
+Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-initiation students](#scientific-initiation), [specialization students](#specialization-students), [master students](#master), [doctoral students](#doctoral), [postdoctoral students](#postdoctoral), [alumni](#alumni).
 
-Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
-
-{% assign number_printed = 0 %}
-## Staff
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-md-6 clearfix">
-  <img src="../assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
+<hr>
+## Reseachers
+<div class="row team-card">
+  {% for member in site.data.team_members %}
+ <div class="col-sm-6 team">
+       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      <h4>{{ member.name }}</h4>
+     <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
+      <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
   {% endif %}
@@ -52,45 +43,46 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <li> {{ member.education4 }} </li>
   {% endif %}
 
-  {% if member.number_educ == 5 %}
+   {% if member.number_educ == 5 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
+   <li> {{ member.education5 }} </li>
   {% endif %}
-
   </ul>
+
+  <!-- Link Icons -->
+   <div class="icons team-icons" style="falign-content: center">
+    {% if member.lattes %}
+       <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+    {% endif %}
+   {% if member.github %}
+      <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>
+   {% endif %}
+   {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank"><i class="fab fa-orcid"></i></a>
+   {% endif %}
+   {% if member.gscholar %}
+     <a href="{{ member.gscholar }}" target="_blank"><i class="fab fa-google"></i></a>
+   {% endif %}
+   </div>
+
+  </div>
+  {% endfor %}
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
+<hr>
 
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+## Colaborators
 
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-## Master and Bachelor Students
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
+<div class="row team-card">
+  {% for member in site.data.colaborators %}
+    <div class="col-sm-6 team">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      <h4>{{ member.name }}</h4>
+     <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
+      <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
   {% endif %}
@@ -113,82 +105,218 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
   <li> {{ member.education4 }} </li>
   {% endif %}
 
+   {% if member.number_educ == 5 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+   <li> {{ member.education5 }} </li>
+  {% endif %}
   </ul>
+
+  <!-- Link Icons -->
+   <div class="icons team-icons" style="falign-content: center">
+    {% if member.lattes %}
+       <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+    {% endif %}
+   {% if member.github %}
+      <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>
+   {% endif %}
+   {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank"><i class="fab fa-orcid"></i></a>
+   {% endif %}
+   {% if member.gscholar %}
+     <a href="{{ member.gscholar }}" target="_blank"><i class="fab fa-google"></i></a>
+   {% endif %}
+   </div>
+
+    </div>
+  {% endfor %}
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
+<hr>
+<h1 class="mt-6 text-center">Staff</h1>
 
-{% if even_odd == 1 %}
+## Scientific Initiation
+
+<div class="row team-card">
+  {% for member in site.data.students_SI %}
+    <div class="col-sm-6 team">
+     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      <h4>{{ member.name }}</h4>
+     <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
+    
+  <!-- Link Icons -->
+   <div class="icons team-icons" style="falign-content: center">
+    {% if member.lattes %}
+       <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+    {% endif %}
+   {% if member.github %}
+      <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>
+   {% endif %}
+   {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank"><i class="fab fa-orcid"></i></a>
+   {% endif %}
+   {% if member.gscholar %}
+     <a href="{{ member.gscholar }}" target="_blank"><i class="fab fa-google"></i></a>
+   {% endif %}
+   </div>
+    
+    </div>
+  {% endfor %}
 </div>
-{% endif %}
 
-{% endfor %}
+<hr>
+## Specialization Students
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
+<div class="row team-card">
+  {% for member in site.data.students_spc %}
+    <div class="col-sm-6 team">
+     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      <h4>{{ member.name }}</h4>
+     <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
+  
+  <!-- Link Icons -->
+   <div class="icons team-icons" style="falign-content: center">
+    {% if member.lattes %}
+       <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+    {% endif %}
+   {% if member.github %}
+      <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>
+   {% endif %}
+   {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank"><i class="fab fa-orcid"></i></a>
+   {% endif %}
+   {% if member.gscholar %}
+     <a href="{{ member.gscholar }}" target="_blank"><i class="fab fa-google"></i></a>
+   {% endif %}
+   </div>
+    </div>
+  {% endfor %}
 </div>
-{% endif %}
 
 
+<hr>
+## Master
+
+<div class="row team-card">
+  {% for member in site.data.students_master %}
+    <div class="col-sm-6 team">
+     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      <h4>{{ member.name }}</h4>
+     <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
+    
+  <!-- Link Icons -->
+   <div class="icons team-icons" style="falign-content: center">
+    {% if member.lattes %}
+       <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+    {% endif %}
+   {% if member.github %}
+      <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>
+   {% endif %}
+   {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank"><i class="fab fa-orcid"></i></a>
+   {% endif %}
+   {% if member.gscholar %}
+     <a href="{{ member.gscholar }}" target="_blank"><i class="fab fa-google"></i></a>
+   {% endif %}
+   </div>    
+    </div>
+  {% endfor %}
+</div>
+
+<hr>
+## Doctoral
+
+<div class="row team-card">
+  {% for member in site.data.students_doctoral %}
+    <div class="col-sm-6 team">
+     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      <h4>{{ member.name }}</h4>
+     <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
+
+  <!-- Link Icons -->
+   <div class="icons team-icons" style="falign-content: center">
+    {% if member.lattes %}
+       <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+    {% endif %}
+   {% if member.github %}
+      <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>
+   {% endif %}
+   {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank"><i class="fab fa-orcid"></i></a>
+   {% endif %}
+   {% if member.gscholar %}
+     <a href="{{ member.gscholar }}" target="_blank"><i class="fab fa-google"></i></a>
+   {% endif %}
+   </div>  
+    </div>
+  {% endfor %}
+</div>
+
+<hr>
+## PostDoctoral Students
+
+<div class="row team-card">
+  {% for member in site.data.students_posdoc %}
+    <div class="col-sm-6 team">
+     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      <h4>{{ member.name }}</h4>
+     <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
+  
+  <!-- Link Icons -->
+   <div class="icons team-icons" style="falign-content: center">
+    {% if member.lattes %}
+       <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
+    {% endif %}
+   {% if member.github %}
+      <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>
+   {% endif %}
+   {% if member.orcid %}
+      <a href="{{ member.orcid }}" target="_blank"><i class="fab fa-orcid"></i></a>
+   {% endif %}
+   {% if member.gscholar %}
+     <a href="{{ member.gscholar }}" target="_blank"><i class="fab fa-google"></i></a>
+   {% endif %}
+   </div>  
+    </div>
+  {% endfor %}
+</div>
+
+<hr>
 ## Alumni
-
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
 <div class="row">
-{% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-## Former visitors, BSc/ MSc students
-<div class="row">
-
-<div class="col-sm-4 clearfix">
-<h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
-<h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>
 {% for member in site.data.alumni_bsc %}
-{{ member.name }}
+{{ member.name }}<br>
+{% endfor %}
+</div>
+
+<div class="col-sm-6 clearfix">
+<h4>Master Students</h4>
+{% for member in site.data.alumni_msc %}
+{{ member.name }}<br>
 {% endfor %}
 </div>
 
 </div>
 
+<div class="row">
 
-## Administrative Support
-<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
+<div class="col-sm-6 clearfix">
+<h4>Doctoral and Postdoctoral Students</h4>
+{% for member in site.data.alumni_doc %}
+{{ member.name }}<br>
+{% endfor %}
+</div>
+
+<div class="col-sm-6 clearfix">
+<h4>Specialization Students</h4>
+{% for member in site.data.alumni_spc %}
+{{ member.name }} <br>
+{% endfor %}
+</div>
+
+</div>
