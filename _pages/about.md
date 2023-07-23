@@ -11,12 +11,11 @@ social: true  # includes social icons at the bottom of the page
 ---
 
   <div class="container mt-4 mb-4">
-    <!-- <img src="assets/img/icon_about.png" class="custom-img">  -->
       <p class="custom-text">Data science is an emerging and promising field in solving problems that affect humanity. Our group has dipped into this new, challenging and amazing world, trying to contribute to the understanding and, where possible, the solution of epidemiological, biological and computational problems, especially, but not only, those focused on women's health.</p>
   </div>
 
 <!-- Carousel -->
-<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
+<div id="carousel" class="carousel slide text-center" data-ride="carousel" data-interval="3000" data-pause="hover">
   <!-- Menu -->
   <ol class="carousel-indicators">
     <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -55,9 +54,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!--Cards About-->
 <div class="container mb-4">
-<br>
-    <!-- <img src="assets/img/icon_focus.png" class="custom-img">  -->
-      <p class="custom-text" style="margin: 1%">Our research focuses on Pelvic Pain and Gynecological Tumors, especially on the analysis of epidemiological, molecular, and genomic data on a large scale from endometriosis and breast and ovarian cancer. Broadly, we aim to generate new scientific evidences which can impact clinical practice, healthcare and public health policy.</p> 
+      <p class="custom-text mt-4" style="margin: 1%">Our research focuses on Pelvic Pain and Gynecological Tumors, especially on the analysis of epidemiological, molecular, and genomic data on a large scale from endometriosis and breast and ovarian cancer. Broadly, we aim to generate new scientific evidences which can impact clinical practice, healthcare and public health policy.</p> 
 </div>
 
 ## Principal Investigators
@@ -82,20 +79,20 @@ social: true  # includes social icons at the bottom of the page
       <p class="card-text text-center" style="font-size: 0.9rem;">Associate Professor of the Gynecology and Obstetrics Department Ribeirão Preto Medical School – University of Sao Paulo. Center of Pelvic Oncology and Mastology</p>
     </div>
   </div>
- </div>
- </div>
+  </div>
+  </div>
 
 ## Institutions and Supporters
 
 <hr>
-  <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mt-4">
+  <div class="row mt-4">
     <div class="col"> <a href="https://www5.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logo_usp.jpg" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://www.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoFmrp.png" style="width: 70%"> </a> </div>
      <div class="col"> <a href="https://biobanco.fmrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoBiobanco.png" style="width: 70%"> </a> </div>
     <div class="col"> <a href="https://site.hcrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoHc.png" style="width: 80%"> </a> </div>
     <div class="col"> <a href="https://www.gov.br/capes/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCapes.png" style="width: 70%"> </a> </div>
   </div>
-  <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mt-4">
+  <div class="row mt-4">
     <div class="col"> <a href="https://posgo.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoPpgo.png" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://rgo.fmrp.usp.br/pb/"> <img src="{{ site.url }}/assets/img/logopic/logoGO.png" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://www.gov.br/cnpq/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCnpq.png" style="width: 90%"> </a> </div>

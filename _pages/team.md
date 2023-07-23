@@ -260,7 +260,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 
 <hr>
 
-## PostDoctoral Students
+## Postdoctoral
 
 <div class="row team-card">
   {% for member in site.data.students_posdoc %}
