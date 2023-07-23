@@ -10,15 +10,16 @@ sitemap: false
 
 ## Group Members
 
-Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-initiation students](#scientific-initiation), [specialization students](#specialization-students), [master students](#master), [doctoral students](#doctoral), [postdoctoral students](#postdoctoral), [alumni](#alumni).
-
+Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-initiation students](#scientific-initiation), [specialization students](#specialization-students), [master students](#master), [doctoral students](#doctoral), [postdoctoral students](#postdoctoral-students), [alumni](#alumni).
 <hr>
+
 ## Reseachers
+
 <div class="row team-card">
   {% for member in site.data.team_members %}
- <div class="col-sm-6 team">
-       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4>{{ member.name }}</h4>
+ <div class="col-sm-6 clearfix">
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+      <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4>
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
       <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
@@ -53,7 +54,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
   </ul>
 
   <!-- Link Icons -->
-   <div class="icons team-icons" style="falign-content: center">
+   <div class="icons team-icons mb-4" style="falign-content: center">
     {% if member.lattes %}
        <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
     {% endif %}
@@ -78,9 +79,9 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 
 <div class="row team-card">
   {% for member in site.data.colaborators %}
-    <div class="col-sm-6 team">
+    <div class="col-sm-6 clearfix">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4>{{ member.name }}</h4>
+      <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
       <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
@@ -115,7 +116,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
   </ul>
 
   <!-- Link Icons -->
-   <div class="icons team-icons" style="falign-content: center">
+   <div class="icons team-icons mb-4" style="falign-content: center">
     {% if member.lattes %}
        <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
     {% endif %}
@@ -141,13 +142,13 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 
 <div class="row team-card">
   {% for member in site.data.students_SI %}
-    <div class="col-sm-6 team">
+    <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }}</h4>
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
     
   <!-- Link Icons -->
-   <div class="icons team-icons" style="falign-content: center">
+   <div class="icons team-icons mb-4" style="falign-content: center">
     {% if member.lattes %}
        <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
     {% endif %}
@@ -167,17 +168,18 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 </div>
 
 <hr>
+
 ## Specialization Students
 
 <div class="row team-card">
   {% for member in site.data.students_spc %}
-    <div class="col-sm-6 team">
+    <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }}</h4>
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
   
   <!-- Link Icons -->
-   <div class="icons team-icons" style="falign-content: center">
+   <div class="icons team-icons mb-4" style="falign-content: center">
     {% if member.lattes %}
        <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
     {% endif %}
@@ -197,17 +199,18 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 
 
 <hr>
+
 ## Master
 
 <div class="row team-card">
   {% for member in site.data.students_master %}
-    <div class="col-sm-6 team">
+    <div class="col-sm-6 cleafix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }}</h4>
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
     
   <!-- Link Icons -->
-   <div class="icons team-icons" style="falign-content: center">
+   <div class="icons team-icons mb-4" style="falign-content: center">
     {% if member.lattes %}
        <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
     {% endif %}
@@ -226,17 +229,18 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 </div>
 
 <hr>
+
 ## Doctoral
 
 <div class="row team-card">
   {% for member in site.data.students_doctoral %}
-    <div class="col-sm-6 team">
+    <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }}</h4>
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
 
   <!-- Link Icons -->
-   <div class="icons team-icons" style="falign-content: center">
+   <div class="icons team-icons mb-4" style="falign-content: center">
     {% if member.lattes %}
        <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
     {% endif %}
@@ -255,17 +259,18 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 </div>
 
 <hr>
+
 ## PostDoctoral Students
 
 <div class="row team-card">
   {% for member in site.data.students_posdoc %}
-    <div class="col-sm-6 team">
+    <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }}</h4>
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
   
   <!-- Link Icons -->
-   <div class="icons team-icons" style="falign-content: center">
+   <div class="icons team-icons mb-4" style="falign-content: center">
     {% if member.lattes %}
        <a href="{{ member.lattes }}" target="_blank"><i class="ai ai-lattes"></i></a>
     {% endif %}
@@ -284,7 +289,9 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 </div>
 
 <hr>
+
 ## Alumni
+
 <div class="row">
 
 <div class="col-sm-6 clearfix">

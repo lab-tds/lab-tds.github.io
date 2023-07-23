@@ -10,7 +10,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-  <div class="container mt-4">
+  <div class="container mt-4 mb-4">
     <!-- <img src="assets/img/icon_about.png" class="custom-img">  -->
       <p class="custom-text">Data science is an emerging and promising field in solving problems that affect humanity. Our group has dipped into this new, challenging and amazing world, trying to contribute to the understanding and, where possible, the solution of epidemiological, biological and computational problems, especially, but not only, those focused on women's health.</p>
   </div>
@@ -52,6 +52,7 @@ social: true  # includes social icons at the bottom of the page
 </div>
 
 ## Applying Data Science To Improve Women's Health
+
 <!--Cards About-->
 <div class="container mb-4">
 <br>
@@ -63,10 +64,10 @@ social: true  # includes social icons at the bottom of the page
 
 <!--Authors PI-->
 
-<div class="container mb-6">
+<div class="container mb-4">
 <div class="card-group mt-4">
   <div class="card">
-    <img src="assets/img/omero_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 40%; border-radius: 10%;">
+    <img src="assets/img/teampic/omero_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 40%; border-radius: 10%;">
     <div class="card-body">
       <h2 class="card-title text-center">Omero Benedicto Poli-Neto</h2>
       <h1 class="card-text text-center" style="font-size: 1.5rem;">Gynecologic surgery, Oncogynecology and Data Science</h1>
@@ -74,7 +75,7 @@ social: true  # includes social icons at the bottom of the page
     </div>
   </div>
   <div class="card">
-    <img src="assets/img/daniel_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 35%; border-radius: 10%;">
+    <img src="assets/img/teampic/daniel_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 35%; border-radius: 10%;">
     <div class="card-body text-center">
       <h2 class="card-title">Daniel Guimarães Tiezzi</h2>
       <p class="card-text text-center" style="font-size: 1.5rem;">Clinical oncology, Mastology and Data Science</p>
@@ -84,18 +85,17 @@ social: true  # includes social icons at the bottom of the page
  </div>
  </div>
 
-<br>
 ## Institutions and Supporters
-<div class="container mb-4">
+
 <hr>
-  <div class="row mt-4">
+  <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mt-4">
     <div class="col"> <a href="https://www5.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logo_usp.jpg" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://www.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoFmrp.png" style="width: 70%"> </a> </div>
      <div class="col"> <a href="https://biobanco.fmrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoBiobanco.png" style="width: 70%"> </a> </div>
     <div class="col"> <a href="https://site.hcrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoHc.png" style="width: 80%"> </a> </div>
     <div class="col"> <a href="https://www.gov.br/capes/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCapes.png" style="width: 70%"> </a> </div>
   </div>
-  <div class="row mt-4">
+  <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-5 mt-4">
     <div class="col"> <a href="https://posgo.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoPpgo.png" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://rgo.fmrp.usp.br/pb/"> <img src="{{ site.url }}/assets/img/logopic/logoGO.png" style="width: 90%"> </a> </div>
     <div class="col"> <a href="https://www.gov.br/cnpq/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCnpq.png" style="width: 90%"> </a> </div>
@@ -103,6 +103,5 @@ social: true  # includes social icons at the bottom of the page
     <div class="col"> <a href="https://faepa.br/"><img src="{{ site.url }}/assets/img/logopic/logoFaepa.png" style="width: 90%"> </a> </div>
   </div>
   <hr>
-</div>
 
 

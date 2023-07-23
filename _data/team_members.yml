@@ -1,7 +1,10 @@
+## To complete the nationality tag, use a country's ISO 3166-1-alpha-2 code <https://www.iso.org/obp/ui/#search>
+
 - name: Omero Benedicto Poli-Neto
   photo: omero_prof.png
   info: Associate professor - Principal Investigator
   email: milan.allan@gmail.com
+  nationality: br
   number_educ: 3
   education1: Graduation in Medicine - University of São Paulo, USP, Brazil
   education2: Specialization - Medical residency in Gynecology and Obstetrics, Oncology, Tocogynecology and Mastology - University of São Paulo, USP, Brazil
@@ -15,6 +18,7 @@
   photo: daniel_prof.png
   info: Associate professor - Principal Investigator
   email: dtiezzi@usp.br
+  nationality: br
   number_educ: 4
   education1: Graduation in Medicine - University of São Paulo, USP, Brazil
   education2: Specialization in Internship in Molecular Biology - Fox Chase Cancer Center, FCCC, United States
@@ -27,36 +31,36 @@
 
 - name: Francisco Candido-dos-Reis
   photo: member.png
-  info: Postdoc, started Oct 2020
+  info: Reseacher
   email: niu@physics.leidenuniv.nl
-  number_educ: 2
-  education1: PhD with <a href="http://www2.phy.pku.edu.cn/~xilin/group-members.html">Xi Lin</a> and <a href="http://faculty.pku.edu.cn/JianWangGroup/en/zhym/25393/list/index.htm">Jian Wei</a>, Peking University
-  education2: BSc Jilin University
-  lattes: http://lattes.cnpq.br/1249884771676480
-  orcid: https://orcid.org/0000-0002-2660-0093
-  github: https://github.com/dtiezzi
-  gscholar: https://scholar.google.com/citations?user=h50SV8wAAAAJ&hl=en
+  nationality: br
+  number_educ: 0
+  education1: 
+  lattes:
+  orcid:
+  github:
+  gscholar:
 
 - name: Juliana Meola Lovato
   photo: member.png
-  info: Postdoc, started July 2021
+  info: Reseacher
   email: jwlee0421@postech.ac.kr
-  number_educ: 2
-  education1: PhD with <a href="https://caldes.ibs.re.kr/html/caldes_en/">Han Woong Yeom</a> Pohang University of Science and Technology (POSTECH)
-  education2: BSc Pohang University of Science and Technology (POSTECH)
-  lattes: http://lattes.cnpq.br/1249884771676480
-  orcid: https://orcid.org/0000-0002-2660-0093
-  github: https://github.com/dtiezzi
-  gscholar: https://scholar.google.com/citations?user=h50SV8wAAAAJ&hl=en
+  nationality: br
+  number_educ: 0
+  education1:
+  lattes:
+  orcid:
+  github:
+  gscholar:
 
 - name: Julio Cesar Rosa-e-Silva
   photo: member.png
-  info: PhD Student, started November 2018
+  info: Reseacher
   email: benschop@physics.leidenuniv.nl
-  number_educ: 2
-  education1: Master Leiden University with Milan Allan
-  education2: Casimir PhD fellowship
-  lattes: http://lattes.cnpq.br/1249884771676480
-  orcid: https://orcid.org/0000-0002-2660-0093
-  github: https://github.com/dtiezzi
-  gscholar: https://scholar.google.com/citations?user=h50SV8wAAAAJ&hl=en
+  nationality: br
+  number_educ: 0
+  education1: 
+  lattes:
+  orcid:
+  github:
+  gscholar:

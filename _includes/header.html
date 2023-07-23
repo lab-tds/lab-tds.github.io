@@ -6,10 +6,24 @@
         {%- if page.permalink == '/'-%}
         <a href="https://www5.usp.br/"><img src="{{ site.baseurl }}/assets/img/logopic/logo_usp.jpg" style="max-width: 20%;"></a>
         {%- else -%}
-        <div><a href="/"><img src="{{ site.baseurl }}/assets/img/logopic/logo_lab2.png" style="width: 35%;"></a><a href="https://www5.usp.br/"><img src="{{ site.baseurl }}/assets/img/logopic/logo_usp.jpg" style="margin-left: 4%; max-width: 12%;"></a></div>
+       
+        <div class="container-fluid">
+          <!-- Primeira imagem -->
+          <a class="navbar-brand" href="https://www5.usp.br/">
+            <img src="{{ site.baseurl }}/assets/img/logopic/logo_usp.jpg" style="max-width: 20%;" class="d-inline-block align-top">
+          </a>
+      
+          <!-- Segunda imagem -->
+          <a class="navbar-brand" href="{{ '/' | relative_url }}">
+            <img src="{{ site.baseurl }}/assets/img/logopic/logo_lab2.png" width="400" height="60" class="d-inline-block align-top">           
+          </a>
+        </div>
+
+ 
+        
       {%- endif -%}
 
-        <div class="container">
+        <div class="container" style="font-size: 1.5rem; ">
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
@@ -23,7 +37,7 @@
                 {{- site.last_name -}}
               {%- endif -%}
             {%- else -%}
-              {{- site.title -}}
+              <!-- {{- site.title -}} -->
             {%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}

@@ -14,8 +14,21 @@
     {%- else -%}
     <footer class="sticky-bottom mt-5">
       <div class="container text-center">
-        {{site.footer_contact}} <br>
-        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}. {{ site.footer_text }}
+        <div class="row justify-content-md-center">
+          <div class="col col-sm-4">
+            {{site.footer_contact}} 
+          </div>
+
+          <div class="col col-sm-4">
+            {{ site.footer_text }}
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}.
+          </div>
+        </div>
+      
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
