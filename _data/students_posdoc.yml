@@ -1,8 +1,10 @@
+## To complete the nationality tag, use a country's ISO 3166-1-alpha-2 code <https://www.iso.org/obp/ui/#search>
 
 - name: Bruna Helena Mellado
   photo: member.png
   info: Postdoctoral student
   email: m.ortego.larrazabal@umail.leidenuniv.nl
+  nationality: br
   lattes:
   orcid:
   github:
@@ -12,6 +14,7 @@
   photo: member.png
   info: Postdoctoral student
   email: m.ortego.larrazabal@umail.leidenuniv.nl
+  nationality: br
   lattes:
   orcid:
   github:

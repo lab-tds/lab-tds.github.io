@@ -144,7 +144,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
   {% for member in site.data.students_SI %}
     <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4>{{ member.name }}</h4>
+      <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
     
   <!-- Link Icons -->
@@ -175,7 +175,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
   {% for member in site.data.students_spc %}
     <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4>{{ member.name }}</h4>
+      <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
   
   <!-- Link Icons -->
@@ -206,7 +206,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
   {% for member in site.data.students_master %}
     <div class="col-sm-6 cleafix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4>{{ member.name }}</h4>
+      <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
     
   <!-- Link Icons -->
@@ -236,7 +236,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
   {% for member in site.data.students_doctoral %}
     <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4>{{ member.name }}</h4>
+      <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
 
   <!-- Link Icons -->
@@ -266,7 +266,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
   {% for member in site.data.students_posdoc %}
     <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-      <h4>{{ member.name }}</h4>
+      <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
   
   <!-- Link Icons -->

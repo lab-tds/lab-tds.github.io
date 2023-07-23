@@ -10,7 +10,7 @@ Isabela developed the research in partnership with the [Laboratory for Translati
 
 ***
 
-[Dr. ISABELA PANZERI CARLOTTI BUZATTO]() presented at the [Brazilian Breast Cancer Symposium 2023](https://2023.bbcs.org.br/speaker/isabela-panzeri-carlotti-buzatto-bra/) the results of her study conducted with the partnership Laboratory for Translational Data Science entitled Axillary ultrasound and fine-needle aspiration cytology to predict clinically relevant nodal burden in breast cancer patients where it was observed that Machine learning can reliably predict the malignancy of BI-RADS; 4a and 4b breast lesions based on clinical and ultrasonographic features. The work was [awarded](https://2023.bbcs.org.br/jose-aristodemo-pinotti-award/) by the Brazilian Society of Mastology and will be presented at an International Congress in Italy
+[Dr. ISABELA PANZERI CARLOTTI BUZATTO]() presented at the [Brazilian Breast Cancer Symposium 2023](https://2023.bbcs.org.br/speaker/isabela-panzeri-carlotti-buzatto-bra/) the results of her study conducted with the partnership Laboratory for Translational Data Science entitled Axillary ultrasound and fine-needle aspiration cytology to predict clinically relevant nodal burden in breast cancer patients where it was observed that Machine learning can reliably predict the malignancy of BI-RADS; 4a and 4b breast lesions based on clinical and ultrasonographic features. The work was [awarded with the José Aristódemo Pinotti Award](https://2023.bbcs.org.br/jose-aristodemo-pinotti-award/).
 
 
 <!-- #### Hipster list

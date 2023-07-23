@@ -5,9 +5,5 @@ github_users:
   - gustcab
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
+  - dtiezzi/COVIDBR
+  - dtiezzi/DATASUS
