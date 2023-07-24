@@ -22,21 +22,25 @@ social: true  # includes social icons at the bottom of the page
     <li data-target="#carousel" data-slide-to="1"></li>
     <li data-target="#carousel" data-slide-to="2"></li>
     <li data-target="#carousel" data-slide-to="3"></li>
+    <li data-target="#carousel" data-slide-to="4"></li>
   </ol>
 
   <!-- Items -->
   <div class="carousel-inner mb-4">
     <div class="carousel-item active">
-      <img src="assets/img/carousel_hc.png" alt="Slide 1" />
+      <img src="assets/img/carousel/carousel_hc3.jpg" alt="Slide 1" />
     </div>
     <div class="carousel-item">
-      <img src="assets/img/carousel_hc2.jpg" alt="Slide 2" />
+      <img src="assets/img/carousel/carousel_central.png" alt="Slide 2" />
     </div>
     <div class="carousel-item">
-      <img src="assets/img/carousel_central.png" alt="Slide 3" />
+      <img src="assets/img/carousel/carousel_central.jpg" alt="Slide 3" />
+    </div>
+     <div class="carousel-item">
+      <img src="assets/img/carousel/carousel_central_hc.jpg" alt="Slide 4" />
     </div>
     <div class="carousel-item">
-      <img src="assets/img/carousel_Cancer_Detection.png" alt="Slide 4" />
+      <img src="assets/img/carousel/carousel_Cancer_Detection.png" alt="Slide 5" />
     </div>
   </div>
 
@@ -85,19 +89,19 @@ social: true  # includes social icons at the bottom of the page
 ## Institutions and Supporters
 
 <hr>
-  <div class="row mt-4">
-    <div class="col"> <a href="https://www5.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logo_usp.jpg" style="width: 90%"> </a> </div>
-    <div class="col"> <a href="https://www.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoFmrp.png" style="width: 70%"> </a> </div>
-     <div class="col"> <a href="https://biobanco.fmrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoBiobanco.png" style="width: 70%"> </a> </div>
-    <div class="col"> <a href="https://site.hcrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoHc.png" style="width: 80%"> </a> </div>
-    <div class="col"> <a href="https://www.gov.br/capes/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCapes.png" style="width: 70%"> </a> </div>
+  <div class="row mt-4 text-center">
+    <div class="col-sm"> <a href="https://www5.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logo_usp.jpg" style="width: 180px"> </a> </div>
+    <div class="col-sm mt-2"> <a href="https://www.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoFmrp.png" style="width: 120px"> </a> </div>
+     <div class="col-sm mt-3"> <a href="https://biobanco.fmrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoBiobanco.png" style="width: 120px"></a> </div>
+    <div class="col-sm mt-3"> <a href="https://site.hcrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoHc.png" style="width: 150px"></a> </div>
+    <div class="col-sm mt-3"> <a href="https://www.gov.br/capes/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCapes.png" style="width: 110px"> </a> </div>
   </div>
-  <div class="row mt-4">
-    <div class="col"> <a href="https://posgo.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoPpgo.png" style="width: 90%"> </a> </div>
-    <div class="col"> <a href="https://rgo.fmrp.usp.br/pb/"> <img src="{{ site.url }}/assets/img/logopic/logoGO.png" style="width: 90%"> </a> </div>
-    <div class="col"> <a href="https://www.gov.br/cnpq/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCnpq.png" style="width: 90%"> </a> </div>
-    <div class="col"> <a href="https://fapesp.br/"><img src="{{ site.url }}/assets/img/logopic/logoFapesp.png" style="width: 90%"> </a> </div>
-    <div class="col"> <a href="https://faepa.br/"><img src="{{ site.url }}/assets/img/logopic/logoFaepa.png" style="width: 90%"> </a> </div>
+  <div class="row mt-4 text-center">
+    <div class="col-sm mt-3"> <a href="https://posgo.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoPpgo.png" style="width: 180px"> </a> </div>
+    <div class="col-sm mt-3"> <a href="https://rgo.fmrp.usp.br/pb/"> <img src="{{ site.url }}/assets/img/logopic/logoGO.png" style="width: 180px"> </a> </div>
+    <div class="col-sm mt-3"> <a href="https://www.gov.br/cnpq/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCnpq.png" style="width: 150px"> </a> </div>
+    <div class="col-sm mt-4"> <a href="https://fapesp.br/"><img src="{{ site.url }}/assets/img/logopic/logoFapesp.png" style="width: 180px"> </a> </div>
+    <div class="col-sm mt-4"> <a href="https://faepa.br/"><img src="{{ site.url }}/assets/img/logopic/logoFaepa.png" style="width: 150px"> </a> </div>
   </div>
   <hr>
 

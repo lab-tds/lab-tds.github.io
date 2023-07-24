@@ -5,10 +5,11 @@
   info: Associate professor - Principal Investigator
   email: milan.allan@gmail.com
   nationality: br
-  number_educ: 3
+  number_educ: 4
   education1: Graduation in Medicine - University of São Paulo, USP, Brazil
   education2: Specialization - Medical residency in Gynecology and Obstetrics, Oncology, Tocogynecology and Mastology - University of São Paulo, USP, Brazil
   education3: PhD in Medicine (Obstetrics and Gynecology) - University of São Paulo, USP, Brazil
+  education4: Data Scientist with an MBA in Data Science and Artificial Intelligence
   lattes: http://lattes.cnpq.br/8855271776749181
   orcid: https://orcid.org/0000-0003-0270-5496/
   github: https://github.com/polineto
@@ -29,38 +30,46 @@
   github: https://github.com/dtiezzi
   gscholar: https://scholar.google.com/citations?user=h50SV8wAAAAJ&hl=en
 
-- name: Francisco Candido-dos-Reis
+- name: Francisco Candido dos Reis
   photo: member.png
-  info: Reseacher
+  info: Professor
   email: niu@physics.leidenuniv.nl
   nationality: br
-  number_educ: 0
-  education1: 
-  lattes:
-  orcid:
+  number_educ: 5
+  education1: Graduation in Medicine - University of São Paulo, USP, Brazil
+  education2: Specialization - Medical residency in General Surgery, Gynecology and Obstetrics - University of São Paulo, USP, Brazil
+  education3: PhD in Medicine (Obstetrics and Gynecology) - University of São Paulo, USP, Brazil
+  education4: Postdoctoral fellow at Brigham and Women's Hospital at Harvard Medical School in Boston
+  education5: Visiting Research Fellow at the Center for Cancer Genetic Epidemiology at the University of Cambridge - UK
+  lattes: http://lattes.cnpq.br/7917363740516584
+  orcid: https://orcid.org/0000-0001-5758-5917
   github:
-  gscholar:
+  gscholar: https://scholar.google.com.br/citations?user=cBhGq6sAAAAJ&hl=pt-BR
 
 - name: Juliana Meola Lovato
   photo: member.png
-  info: Reseacher
+  info: Professor
   email: jwlee0421@postech.ac.kr
   nationality: br
-  number_educ: 0
-  education1:
-  lattes:
-  orcid:
+  number_educ: 4
+  education1: Graduation in Biological Sciences - Federal University of Uberlândia, UFU, Brazil
+  education2: PhD in Sciences (emphasis in Genetics) - University of São Paulo, USP, Brazil
+  education3: Collaborating researcher at the Department of Genetics and Department of Pathology and Molecular Medicine at Queen's University in Endometriosis genome research
+  education4: Collaborating Researcher at WERF Endometriosis Phenome and Biobanking Harmonization Project (EPHect)
+  lattes: http://lattes.cnpq.br/2524694548522101
+  orcid: https://orcid.org/0000-0003-2514-4011
   github:
-  gscholar:
+  gscholar: 
 
-- name: Julio Cesar Rosa-e-Silva
+- name: Julio Cesar Rosa e Silva
   photo: member.png
-  info: Reseacher
+  info: Associate professor
   email: benschop@physics.leidenuniv.nl
   nationality: br
-  number_educ: 0
-  education1: 
-  lattes:
-  orcid:
+  number_educ: 2
+  education1: Graduation in Medicine - University of São Paulo, USP, Brazil
+  education2: Specialization - Medical residency in Urogynecology, Tocogynecological Oncology and Mastology, Ultrasound in Gynecology and Obstetrics, Obstetric Pathology, Endocrinology Tocogynecology, Assisted Reproduction and Gynecological EndoscopyUniversity of São Paulo, USP, Brazil
+  lattes: http://lattes.cnpq.br/7819653999314901
+  orcid: https://orcid.org/0000-0001-6930-1328
   github:
-  gscholar:
+  gscholar: https://scholar.google.com.br/citations?user=HKok3m8AAAAJ&hl=pt-BR
