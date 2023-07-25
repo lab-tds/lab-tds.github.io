@@ -70,7 +70,7 @@ social: true  # includes social icons at the bottom of the page
   <div class="card">
     <img src="assets/img/teampic/omero_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 40%; border-radius: 10%;">
     <div class="card-body">
-      <h2 class="card-title text-center">Omero Benedicto Poli-Neto</h2>
+      <a href="{{ site.baseurl }}/team/#Reseachers"> <h2 class="card-title text-center">Omero Benedicto Poli-Neto</h2></a>
       <h1 class="card-text text-center" style="font-size: 1.5rem;">Gynecologic surgery, Oncogynecology and Data Science</h1>
       <p class="card-text text-center" style="font-size: 0.9rem;">Associate Professor of the Gynecology and Obstetrics Department Ribeirão Preto Medical School – University of Sao Paulo. Center of Chronic Pelvic Pain and Minimally Invasive Gynecological Surgery</p>
     </div>
@@ -78,7 +78,7 @@ social: true  # includes social icons at the bottom of the page
   <div class="card">
     <img src="assets/img/teampic/daniel_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 35%; border-radius: 10%;">
     <div class="card-body text-center">
-      <h2 class="card-title">Daniel Guimarães Tiezzi</h2>
+      <a href="{{ site.baseurl }}/team/#Reseachers"><h2 class="card-title">Daniel Guimarães Tiezzi</h2></a>
       <p class="card-text text-center" style="font-size: 1.5rem;">Clinical oncology, Mastology and Data Science</p>
       <p class="card-text text-center" style="font-size: 0.9rem;">Associate Professor of the Gynecology and Obstetrics Department Ribeirão Preto Medical School – University of Sao Paulo. Center of Pelvic Oncology and Mastology</p>
     </div>
@@ -89,20 +89,27 @@ social: true  # includes social icons at the bottom of the page
 ## Institutions and Supporters
 
 <hr>
-  <div class="row mt-4 text-center">
-    <div class="col-sm"> <a href="https://www5.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logo_usp.jpg" style="width: 180px"> </a> </div>
-    <div class="col-sm mt-2"> <a href="https://www.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoFmrp.png" style="width: 120px"> </a> </div>
-     <div class="col-sm mt-3"> <a href="https://biobanco.fmrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoBiobanco.png" style="width: 120px"></a> </div>
-    <div class="col-sm mt-3"> <a href="https://site.hcrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoHc.png" style="width: 150px"></a> </div>
-    <div class="col-sm mt-3"> <a href="https://www.gov.br/capes/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCapes.png" style="width: 110px"> </a> </div>
+<div class="row mt-4 text-center">
+  <div class="col justify-content-center">
+    <a href="https://www5.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logo_usp.jpg" style="width: 150px; margin: 5px;"> </a>
+    <a href="https://www.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoFmrp.png" style="width: 110px; margin: 5px;"> </a>
+    <a href="https://biobanco.fmrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoBiobanco.png" style="width: 100px; margin: 5px;"></a>
+    <a href="https://site.hcrp.usp.br/"> <img src="{{ site.url }}/assets/img/logopic/logoHc.png" style="width: 120px; margin: 5px;"></a>
+    <a href="https://www.gov.br/capes/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCapes.png" style="width: 100px; margin: 5px;"> </a>
   </div>
-  <div class="row mt-4 text-center">
-    <div class="col-sm mt-3"> <a href="https://posgo.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoPpgo.png" style="width: 180px"> </a> </div>
-    <div class="col-sm mt-3"> <a href="https://rgo.fmrp.usp.br/pb/"> <img src="{{ site.url }}/assets/img/logopic/logoGO.png" style="width: 180px"> </a> </div>
-    <div class="col-sm mt-3"> <a href="https://www.gov.br/cnpq/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCnpq.png" style="width: 150px"> </a> </div>
-    <div class="col-sm mt-4"> <a href="https://fapesp.br/"><img src="{{ site.url }}/assets/img/logopic/logoFapesp.png" style="width: 180px"> </a> </div>
-    <div class="col-sm mt-4"> <a href="https://faepa.br/"><img src="{{ site.url }}/assets/img/logopic/logoFaepa.png" style="width: 150px"> </a> </div>
+</div>
+
+<div class="row mt-4 text-center">
+  <div class="col justify-content-center">
+    <a href="https://posgo.fmrp.usp.br/en/"> <img src="{{ site.url }}/assets/img/logopic/logoPpgo.png" style="width: 150px; margin: 5px;"> </a>
+    <a href="https://rgo.fmrp.usp.br/pb/"> <img src="{{ site.url }}/assets/img/logopic/logoGO.png" style="width: 150px; margin: 5px;"> </a>
+    <a href="https://www.gov.br/cnpq/pt-br"> <img src="{{ site.url }}/assets/img/logopic/logoCnpq.png" style="width: 120px; margin: 5px;"> </a> 
+    <a href="https://fapesp.br/"><img src="{{ site.url }}/assets/img/logopic/logoFapesp.png" style="width: 150px; margin: 5px;"> </a>
+    <a href="https://faepa.br/"><img src="{{ site.url }}/assets/img/logopic/logoFaepa.png" style="width: 150px; margin: 5px;"> </a> 
   </div>
+</div>
   <hr>
+
+
 
 

@@ -31,7 +31,7 @@
   gscholar: https://scholar.google.com/citations?user=h50SV8wAAAAJ&hl=en
 
 - name: Francisco Candido dos Reis
-  photo: member.png
+  photo: francisco_prof.png
   info: Professor
   email: niu@physics.leidenuniv.nl
   nationality: br
@@ -47,7 +47,7 @@
   gscholar: https://scholar.google.com.br/citations?user=cBhGq6sAAAAJ&hl=pt-BR
 
 - name: Juliana Meola Lovato
-  photo: member.png
+  photo: juliana_prof.png
   info: Professor
   email: jwlee0421@postech.ac.kr
   nationality: br
@@ -62,13 +62,13 @@
   gscholar: 
 
 - name: Julio Cesar Rosa e Silva
-  photo: member.png
+  photo: julio_prof.png
   info: Associate professor
   email: benschop@physics.leidenuniv.nl
   nationality: br
   number_educ: 2
   education1: Graduation in Medicine - University of São Paulo, USP, Brazil
-  education2: Specialization - Medical residency in Urogynecology, Tocogynecological Oncology and Mastology, Ultrasound in Gynecology and Obstetrics, Obstetric Pathology, Endocrinology Tocogynecology, Assisted Reproduction and Gynecological EndoscopyUniversity of São Paulo, USP, Brazil
+  education2: Specialization - Medical residency in Urogynecology, Tocogynecological Oncology and Mastology, Ultrasound in Gynecology and Obstetrics, Obstetric Pathology, Endocrinology Tocogynecology, Assisted Reproduction and Gynecological Endoscopy - University of São Paulo, USP, Brazil
   lattes: http://lattes.cnpq.br/7819653999314901
   orcid: https://orcid.org/0000-0001-6930-1328
   github:

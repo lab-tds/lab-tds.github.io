@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
+subtitle: Publications
 description: Publications by categories in reversed chronological order.
 # Todo: Filter by categories and order
 nav: true
@@ -13,3 +14,4 @@ nav_order: 1
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
+

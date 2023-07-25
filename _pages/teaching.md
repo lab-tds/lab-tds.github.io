@@ -2,6 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
+subtitle: Teaching
 description: Courses developed and sponsored by the Lab
 nav: true
 nav_order: 5

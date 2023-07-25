@@ -2,21 +2,20 @@
 layout: gridlay
 permalink: /team/
 title: team
+subtitle: Team
 description:
 nav: true
 nav_order: 0
 sitemap: false
 ---
 
-## Group Members
-
-Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-initiation students](#scientific-initiation), [specialization students](#specialization-students), [master students](#master), [doctoral students](#doctoral), [postdoctoral students](#postdoctoral-students), [alumni](#alumni).
+Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Initiation Students](#scientific-initiation), [Specialization Students](#specialization-students), [Master Students](#master), [Doctoral Students](#doctoral), [Postdoctoral Students](#postdoctoral-students), [Alumni](#alumni).
 <hr>
 
 ## Reseachers
 
 <div class="row team-card">
-  {% for member in site.data.team_members %}
+  {% for member in site.data.team.team_members %}
  <div class="col-sm-6 clearfix">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4>
@@ -78,7 +77,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 ## Colaborators
 
 <div class="row team-card">
-  {% for member in site.data.colaborators %}
+  {% for member in site.data.team.colaborators %}
     <div class="col-sm-6 clearfix">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
@@ -141,7 +140,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 ## Scientific Initiation
 
 <div class="row team-card">
-  {% for member in site.data.students_SI %}
+  {% for member in site.data.team.students_SI %}
     <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
@@ -172,7 +171,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 ## Specialization Students
 
 <div class="row team-card">
-  {% for member in site.data.students_spc %}
+  {% for member in site.data.team.students_spc %}
     <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
@@ -203,7 +202,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 ## Master
 
 <div class="row team-card">
-  {% for member in site.data.students_master %}
+  {% for member in site.data.team.students_master %}
     <div class="col-sm-6 cleafix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
@@ -233,7 +232,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 ## Doctoral
 
 <div class="row team-card">
-  {% for member in site.data.students_doctoral %}
+  {% for member in site.data.team.students_doctoral %}
     <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
@@ -263,7 +262,7 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 ## Postdoctoral
 
 <div class="row team-card">
-  {% for member in site.data.students_posdoc %}
+  {% for member in site.data.team.students_posdoc %}
     <div class="col-sm-6 clearfix">
      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
@@ -294,16 +293,16 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 
 <div class="row">
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 mt-4 clearfix">
 <h4>Bachelor Students</h4>
-{% for member in site.data.alumni_bsc %}
+{% for member in site.data.team.alumni_bsc %}
 {{ member.name }}<br>
 {% endfor %}
 </div>
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 mt-4 clearfix">
 <h4>Master Students</h4>
-{% for member in site.data.alumni_msc %}
+{% for member in site.data.team.alumni_msc %}
 {{ member.name }}<br>
 {% endfor %}
 </div>
@@ -312,16 +311,16 @@ Jump to [reseachers](#Reseachers),[colaborators](#colaborators), [scientific-ini
 
 <div class="row">
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 mt-4 clearfix">
 <h4>Doctoral and Postdoctoral Students</h4>
-{% for member in site.data.alumni_doc %}
+{% for member in site.data.team.alumni_doc %}
 {{ member.name }}<br>
 {% endfor %}
 </div>
 
-<div class="col-sm-6 clearfix">
+<div class="col-sm-6 mt-4 clearfix">
 <h4>Specialization Students</h4>
-{% for member in site.data.alumni_spc %}
+{% for member in site.data.team.alumni_spc %}
 {{ member.name }} <br>
 {% endfor %}
 </div>

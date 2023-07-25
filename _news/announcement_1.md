@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Isabela Carlotti wins Jose Aristodemo Pinotti award at Brazilian Breast Cancer Symposium 2023
+title: Isabela Carlotti wins Jose Aristodemo Pinotti Award at Brazilian Breast Cancer Symposium 2023
 date: 2023-07-19 16:11:00-0400
 inline: false
 related_posts: false
