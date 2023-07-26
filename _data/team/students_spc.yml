@@ -1,5 +1,15 @@
 ## To complete the nationality tag, use a country's ISO 3166-1-alpha-2 code <https://www.iso.org/obp/ui/#search>
 
+# - name:
+#   photo:
+#   info:
+#   email:
+#   nationality:
+#   lattes:
+#   orcid:
+#   github:
+#   gscholar:
+
 - name: Alice Gadotti Yasuda
   photo: member.png
   info: Specialization student

@@ -1,5 +1,21 @@
 ## To complete the nationality tag, use a country's ISO 3166-1-alpha-2 code <https://www.iso.org/obp/ui/#search>
 
+# - name:
+#   photo:
+#   info:
+#   email:
+#   nationality:
+#   number_educ:
+#   education1:
+#   education2:
+#   education3:
+#   education4:
+#   lattes:
+#   orcid:
+#   github:
+#   gscholar:
+
+
 - name: Fabricio da Silva Costa
   photo: member.png
   info: School of Medicine, Griffith University - Department of Obstetrics and Gynecology

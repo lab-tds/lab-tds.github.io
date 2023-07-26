@@ -1,6 +1,15 @@
-# - title: Introduction in HTML e CSS
-#   workload: 18 h 
-#   description: HTML and CSS course
-#   img: course_img.jpg
-#   link: \#
+#  - title:
+#    workload:
+#    description:
+#    img:
+#    link:
+#    show: 
+ 
+ 
+#  - title: Introduction in HTML e CSS
+#    workload: 18 h 
+#    description: HTML and CSS course
+#    img: course_img.jpg
+#    link: \#
+#    show: true
 

@@ -9,7 +9,7 @@ nav_order: 0
 sitemap: false
 ---
 
-Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Initiation Students](#scientific-initiation), [Specialization Students](#specialization-students), [Master Students](#master), [Doctoral Students](#doctoral), [Postdoctoral Students](#postdoctoral-students), [Alumni](#alumni).
+Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Undergraduate Students](#undergraduate-students), [Specialization Students](#specialization-students), [Master Students](#master), [Doctoral Students](#doctoral), [Postdoctoral Students](#postdoctoral-students), [Alumni](#alumni).
 <hr>
 
 ## Reseachers
@@ -17,7 +17,11 @@ Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Init
 <div class="row team-card">
   {% for member in site.data.team.team_members %}
  <div class="col-sm-6 clearfix">
+  {% if member.photo %}
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+   {%- else -%}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/member.png" class="img-responsive" width="25%" style="float: left" />
+   {% endif %}
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4>
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
       <ul style="overflow: hidden">
@@ -79,7 +83,11 @@ Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Init
 <div class="row team-card">
   {% for member in site.data.team.colaborators %}
     <div class="col-sm-6 clearfix">
+  {% if member.photo %}
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+   {%- else -%}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/member.png" class="img-responsive" width="25%" style="float: left" />
+   {% endif %}
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
       <ul style="overflow: hidden">
@@ -137,12 +145,16 @@ Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Init
 <hr>
 <h1 class="mt-6 text-center">Staff</h1>
 
-## Scientific Initiation
+## Undergraduate Students
 
 <div class="row team-card">
-  {% for member in site.data.team.students_SI %}
+  {% for member in site.data.team.students_under %}
     <div class="col-sm-6 clearfix">
-     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+   {%- else -%}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/member.png" class="img-responsive" width="25%" style="float: left" />
+   {% endif %}
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
     
@@ -173,7 +185,11 @@ Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Init
 <div class="row team-card">
   {% for member in site.data.team.students_spc %}
     <div class="col-sm-6 clearfix">
-     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+   {%- else -%}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/member.png" class="img-responsive" width="25%" style="float: left" />
+   {% endif %}
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
   
@@ -204,7 +220,11 @@ Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Init
 <div class="row team-card">
   {% for member in site.data.team.students_master %}
     <div class="col-sm-6 cleafix">
-     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+   {%- else -%}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/member.png" class="img-responsive" width="25%" style="float: left" />
+   {% endif %}
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
     
@@ -234,7 +254,11 @@ Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Init
 <div class="row team-card">
   {% for member in site.data.team.students_doctoral %}
     <div class="col-sm-6 clearfix">
-     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+   {%- else -%}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/member.png" class="img-responsive" width="25%" style="float: left" />
+   {% endif %}
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
 
@@ -264,7 +288,11 @@ Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Scientific-Init
 <div class="row team-card">
   {% for member in site.data.team.students_posdoc %}
     <div class="col-sm-6 clearfix">
-     <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {% if member.photo %}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+   {%- else -%}
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/member.png" class="img-responsive" width="25%" style="float: left" />
+   {% endif %}
       <h4>{{ member.name }} <span class="fi fi-{{member.nationality}}"></span></h4> 
      <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> --></i>
   

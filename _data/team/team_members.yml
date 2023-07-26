@@ -1,12 +1,29 @@
 ## To complete the nationality tag, use a country's ISO 3166-1-alpha-2 code <https://www.iso.org/obp/ui/#search>
 
+# - name:
+#   photo:
+#   info:
+#   email:
+#   nationality:
+#   number_educ:
+#   education1:
+#   education2:
+#   education3:
+#   education4:
+#   lattes:
+#   orcid:
+#   github:
+#   gscholar:
+
+
+
 - name: Omero Benedicto Poli-Neto
   photo: omero_prof.png
   info: Associate professor - Principal Investigator
   email: milan.allan@gmail.com
   nationality: br
   number_educ: 4
-  education1: Graduation in Medicine - University of São Paulo, USP, Brazil
+  education1: Medical Doctor - University of São Paulo, USP, Brazil
   education2: Specialization - Medical residency in Gynecology and Obstetrics, Oncology, Tocogynecology and Mastology - University of São Paulo, USP, Brazil
   education3: PhD in Medicine (Obstetrics and Gynecology) - University of São Paulo, USP, Brazil
   education4: Data Scientist with an MBA in Data Science and Artificial Intelligence
@@ -21,8 +38,8 @@
   email: dtiezzi@usp.br
   nationality: br
   number_educ: 4
-  education1: Graduation in Medicine - University of São Paulo, USP, Brazil
-  education2: Specialization in Internship in Molecular Biology - Fox Chase Cancer Center, FCCC, United States
+  education1: Medical Doctor - University of São Paulo, USP, Brazil
+  education2: Specialization in Molecular Biology - Fox Chase Cancer Center, FCCC, United States
   education3: Specialization - Medical residency in Gynecology and Obstetrics, Oncology, Tocogynecology and Mastology - University of São Paulo, USP, Brazil
   education4: PhD in Medicine (Obstetrics and Gynecology) - University of São Paulo, USP, Brazil - with sandwich period at Fox Chase Cancer Center
   lattes: http://lattes.cnpq.br/1249884771676480
@@ -36,7 +53,7 @@
   email: niu@physics.leidenuniv.nl
   nationality: br
   number_educ: 5
-  education1: Graduation in Medicine - University of São Paulo, USP, Brazil
+  education1: Medical Doctor - University of São Paulo, USP, Brazil
   education2: Specialization - Medical residency in General Surgery, Gynecology and Obstetrics - University of São Paulo, USP, Brazil
   education3: PhD in Medicine (Obstetrics and Gynecology) - University of São Paulo, USP, Brazil
   education4: Postdoctoral fellow at Brigham and Women's Hospital at Harvard Medical School in Boston
@@ -52,7 +69,7 @@
   email: jwlee0421@postech.ac.kr
   nationality: br
   number_educ: 4
-  education1: Graduation in Biological Sciences - Federal University of Uberlândia, UFU, Brazil
+  education1: Bachelor of Biological Sciences - Federal University of Uberlândia, UFU, Brazil
   education2: PhD in Sciences (emphasis in Genetics) - University of São Paulo, USP, Brazil
   education3: Collaborating researcher at the Department of Genetics and Department of Pathology and Molecular Medicine at Queen's University in Endometriosis genome research
   education4: Collaborating Researcher at WERF Endometriosis Phenome and Biobanking Harmonization Project (EPHect)
@@ -67,7 +84,7 @@
   email: benschop@physics.leidenuniv.nl
   nationality: br
   number_educ: 2
-  education1: Graduation in Medicine - University of São Paulo, USP, Brazil
+  education1: Medical Doctor- University of São Paulo, USP, Brazil
   education2: Specialization - Medical residency in Urogynecology, Tocogynecological Oncology and Mastology, Ultrasound in Gynecology and Obstetrics, Obstetric Pathology, Endocrinology Tocogynecology, Assisted Reproduction and Gynecological Endoscopy - University of São Paulo, USP, Brazil
   lattes: http://lattes.cnpq.br/7819653999314901
   orcid: https://orcid.org/0000-0001-6930-1328

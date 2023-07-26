@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
   </div>
 
 <!-- Carousel -->
-<div id="carousel" class="carousel slide text-center" data-ride="carousel" data-interval="3000" data-pause="hover">
+<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
   <!-- Menu -->
   <ol class="carousel-indicators">
     <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -26,7 +26,7 @@ social: true  # includes social icons at the bottom of the page
   </ol>
 
   <!-- Items -->
-  <div class="carousel-inner mb-4">
+ <div class="carousel-inner" markdown="0">
     <div class="carousel-item active">
       <img src="assets/img/carousel/carousel_hc3.jpg" alt="Slide 1" />
     </div>
@@ -86,7 +86,7 @@ social: true  # includes social icons at the bottom of the page
   </div>
   </div>
 
-## Institutions and Supporters
+## Partner Institutions and Sponsors
 
 <hr>
 <div class="row mt-4 text-center">

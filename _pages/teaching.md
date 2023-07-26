@@ -16,8 +16,8 @@ Organize your courses by years, topics, or universities, however you like! -->
 <div class="container mt-4 text-center">
      {% if site.data.courses %}
     <div class="row">
-      <!-- Loop para percorrer os cursos do arquivo .yml -->
       {% for course in site.data.courses %}
+      {% if course.show %}
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card card-teaching">
                 <a class="img-card" href="{{ course.link }}">
@@ -34,11 +34,13 @@ Organize your courses by years, topics, or universities, however you like! -->
                     </div>
             </div>
         </div>
+      {% else %}
+       <!-- To do: 'show = false' design card -->  
+      {% endif %}
       {% endfor %}
     </div>
     {% else %}
     <div class="row">
-      <!-- Loop para percorrer os cursos do arquivo .yml -->
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card card-teaching">
                 <img src="{{ site.baseurl }}/assets/img/under_construction_board.png" class="card-img-top" alt="{{ course.title }}">

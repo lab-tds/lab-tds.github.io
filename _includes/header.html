@@ -3,9 +3,9 @@
      
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
-      <a href="https://www5.usp.br/"><img src="{{ site.baseurl }}/assets/img/logopic/logo_usp.jpg" style="width: 110px;"></a>
-
+     
         <div class="container" style="font-size: 1.5rem; ">
+          <a href="https://www5.usp.br/"><img src="{{ site.baseurl }}/assets/img/logopic/logo_usp.jpg" style="margin:1%; width: 110px;"></a>
           {% if page.permalink != '/' -%}
           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
             {%- if site.title == "blank" -%}
@@ -20,7 +20,7 @@
               {%- endif -%}
             {%- else -%}
               <!-- {{- site.title -}} -->
-              <img src="{{ site.baseurl }}/assets/img/logopic/logo_lab2.png" style="width: 100%;" >
+              <img src="{{ site.baseurl }}/assets/img/logopic/logo_lab2.png" style="margin: 5%; width: 100%;" >
             {%- endif -%}
           </a>
           {%- elsif site.enable_navbar_social -%}

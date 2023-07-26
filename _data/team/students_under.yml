@@ -1,16 +1,18 @@
-#- name:
-#  photo: rock.jpg
-#  info:
-#  email:
-#  number_educ:
-#  education1:
-#  education2:
-#  education3:
-#  education4:
+## To complete the nationality tag, use a country's ISO 3166-1-alpha-2 code <https://www.iso.org/obp/ui/#search>
+
+# - name:
+#   photo:
+#   info:
+#   email:
+#   nationality:
+#   lattes:
+#   orcid:
+#   github:
+#   gscholar:
 
 - name: Gustavo Motta Cabello dos Santos
   photo: gustavo_SI.jpeg
-  info: Scientific initiation student - Webmaster
+  info: Undergraduate student - Webmaster
   email: gustavocabello@usp.br
   nationality: br
   lattes: http://lattes.cnpq.br/3720529951646870
@@ -21,7 +23,7 @@
 
 - name: Ana Laura de Arruda Villas Boas
   photo: member.png
-  info: Scientific initiation student
+  info: Undergraduate student
   email: m.ortego.larrazabal@umail.leidenuniv.nl
   nationality: br
   lattes:
@@ -31,7 +33,7 @@
 
 - name: Daniely Franco Francisco
   photo: member.png
-  info: Scientific initiation student
+  info: Undergraduate student
   email: m.ortego.larrazabal@umail.leidenuniv.nl
   nationality: br
   lattes:
@@ -41,7 +43,7 @@
 
 - name: Yasmin Baptista Niebas
   photo: member.png
-  info: Scientific initiation student
+  info: Undergraduate student
   email: m.ortego.larrazabal@umail.leidenuniv.nl
   nationality: br
   lattes:
