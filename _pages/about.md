@@ -66,22 +66,29 @@ social: true  # includes social icons at the bottom of the page
 <!--Authors PI-->
 
 <div class="container mb-4">
+
 <div class="card-group mt-4">
+<div class = "row">
+<div class="col-sm-6">
   <div class="card">
     <img src="assets/img/teampic/omero_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 35%; border-radius: 10%;">
     <div class="card-body">
-      <a href="{{ site.baseurl }}/team/#Reseachers"> <h2 class="card-title text-center" style="font-size: 1.6rem;">Omero Benedicto Poli Neto</h2></a>
+      <a href="{{ site.baseurl }}/team/#Reseachers"> <h2 class="card-title text-center" style="font-size: 1.5rem;">Omero Benedicto Poli Neto</h2></a>
       <h1 class="card-text text-center font-weight-bold" style="font-size: 1.0rem;">Gynecologic surgery, Oncogynecology and Data Science</h1>
       <p class="card-text text-center" style="font-size: 0.9rem;">Associate Professor of the Gynecology and Obstetrics Department Ribeirão Preto Medical School – University of Sao Paulo. Center of Chronic Pelvic Pain and Minimally Invasive Gynecological Surgery</p>
     </div>
   </div>
+  </div>
+  <div class="col-sm-6">
   <div class="card">
     <img src="assets/img/teampic/daniel_prof.png" class="card-img-top mx-auto d-block mt-4" style="object-fit: cover; width: 30%; border-radius: 10%;">
     <div class="card-body text-center">
-      <a href="{{ site.baseurl }}/team/#Reseachers"><h2 class="card-title" style="font-size: 1.6rem;">Daniel Guimarães Tiezzi</h2></a>
+      <a href="{{ site.baseurl }}/team/#Reseachers"><h2 class="card-title" style="font-size: 1.5rem;">Daniel Guimarães Tiezzi</h2></a>
       <p class="card-text text-center font-weight-bold" style="font-size: 1.0rem;">Clinical oncology, Mastology and Data Science</p>
       <p class="card-text text-center" style="font-size: 0.9rem;">Associate Professor of the Gynecology and Obstetrics Department Ribeirão Preto Medical School – University of Sao Paulo. Center of Pelvic Oncology and Mastology</p>
     </div>
+    </div>
+  </div>
   </div>
   </div>
   </div>
