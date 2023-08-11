@@ -15,3 +15,13 @@ nav_order: 1
 
 </div>
 
+
+## Full List of publications
+
+{% for publi in site.data.publications %}
+
+  {{ publi.title }} <br />
+  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+
+{% endfor %}
+

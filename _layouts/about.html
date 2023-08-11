@@ -14,24 +14,39 @@ layout: default
           <a href="https://site.hcrp.usp.br/" class="desc">{{ page.subtitle }}</a>
         </header>
 
-          <div class="clearfix">
+        <div class="row mt-4">
+
+          <!-- Featured Cards -->
+          {%- include feature.html limit=true %}
+
+          
+          <div class="col-sm-7 mt-4">
             {{ content }}
           </div>
 
+          <div class="col-sm-5">
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+            <p class="h2 mt-5">News</p>
             {%- include news.html limit=true %}
           {%- endif %}
           <hr>
 
-
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2 style="margin-top: 2%;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></h2>
+            <p class="h2 mt-5" style="margin-top: 2%;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></p>
             {%- include selected_papers.html %}
           {%- endif %}
+          </div>
 
+        </div>
+
+          
+          <!-- Partner Institutions and Sponsors -->
+            <p class="h2" style="margin-top: 2%;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Partner Institutions and Sponsors</a></p>
+            {%- include institutions.html %}
+
+          
           <!-- Social -->
           {%- if page.social %}
             <div class="social">

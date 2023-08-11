@@ -51,6 +51,7 @@ Organize your courses by years, topics, or universities, however you like! -->
             </div>
         </div>
     </div>
+           <br><br><br><br>
      {% endif %}
   </div>
 

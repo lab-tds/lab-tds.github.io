@@ -1,4 +1,4 @@
-          <div class="news">
+          <!-- <div class="news">
             {% if site.news != blank -%}
             {%- assign news_size = site.news | size -%}
             <div class="table-responsive" {% if include.limit and site.announcements.scrollable and news_size > 3 %}style="max-height: 60vw"{% endif %}>
@@ -26,4 +26,25 @@
           {%- else -%}
             <p>No news so far...</p>
           {%- endif %}
-          </div>
+          </div> -->
+
+
+          <div class="news">
+            
+            {% if site.data.news != blank -%}
+            
+            {% for new in site.data.news limit:9 %}
+            <p>{{ new.date }}<br>{{ new.headline | markdownify}}</p>
+
+            {% if new.number >= 8 -%}
+            <h4><a href="{{ site.url }}{{ site.baseurl }}/list-news.html">... see all News</a></h4>
+            {%- endif %}
+
+            {% endfor %}
+            {%- else -%}
+
+            <p>No news so far...</p>
+            
+            {%- endif %}
+            
+            </div>
