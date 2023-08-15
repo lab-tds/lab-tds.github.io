@@ -4,61 +4,63 @@ layout: default
 
 
 <!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-            <a href="{{ site.baseurl }}/"> 
-              <img src="{{ site.url }}/assets/img/logopic/logo_lab.png" style="width: 80px;"> </a>
-            Laboratory for <span class="font-weight-bold"> Translational Data Science </span>
-          </h1>
-          <a href="https://site.hcrp.usp.br/" class="desc">{{ page.subtitle }}</a>
-        </header>
+<div class="post">
+  <header class="post-header">
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}/">
+        <img src="{{ site.url }}/assets/img/logopic/logo_lab.png" style="width: 60px;"> </a>
+      Laboratory for <span class="font-weight-bold"> Translational Data Science </span>
+    </h2>
+    <a href="https://site.hcrp.usp.br/" class="desc">{{ page.subtitle }}</a>
+  </header>
 
-        <div class="row mt-4">
+  <div class="row mt-4">
 
-          <!-- Featured Cards -->
-          {%- include feature.html limit=true %}
+    <!-- Featured Cards -->
+    {%- include feature.html limit=true %}
 
-          
-          <div class="col-sm-7 mt-4">
-            {{ content }}
-          </div>
 
-          <div class="col-sm-5">
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <p class="h2 mt-5">News</p>
-            {%- include news.html limit=true %}
-          {%- endif %}
-          <hr>
+    <div class="col-sm-7 mt-4">
+      {{ content }}
+    </div>
 
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <p class="h2 mt-5" style="margin-top: 2%;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected Publications</a></p>
-            {%- include selected_papers.html %}
-          {%- endif %}
-          </div>
+    <div class="col-sm-5">
+      <!-- News -->
+      {% if page.news and site.announcements.enabled -%}
+      <p class="h2 mt-5">News</p>
+      {%- include news.html limit=true %}
+      {%- endif %}
+      <hr>
 
-        </div>
+      <!-- Selected papers -->
+      {% if page.selected_papers -%}
+      <p class="h2 mt-5" style="margin-top: 2%;"><a href="{{ '/publications/' | relative_url }}"
+          style="color: inherit;">Selected Publications</a></p>
+      {%- include selected_papers.html %}
+      {%- endif %}
+    </div>
 
-          
-          <!-- Partner Institutions and Sponsors -->
-            <p class="h2" style="margin-top: 2%;"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Partner Institutions and Sponsors</a></p>
-            {%- include institutions.html %}
+  </div>
 
-          
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
 
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
+  <!-- Partner Institutions and Sponsors -->
+  <p class="h2 mt-2"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Partner
+      Institutions and Sponsors</a></p>
+  {%- include institutions.html %}
 
-            </div>
-          {%- endif %}
+
+  <!-- Social -->
+  {%- if page.social %}
+  <div class="social">
+    <div class="contact-icons">
+      {% include social.html %}
+    </div>
+
+    <div class="contact-note">
+      {{ site.contact_note }}
+    </div>
+
+  </div>
+  {%- endif %}
 
 </div>
