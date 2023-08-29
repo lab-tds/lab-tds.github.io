@@ -18,7 +18,7 @@ Go to [Reseachers](#Reseachers), [Colaborators](#colaborators), [Undergraduate S
   {% for member in site.data.team.team_members %}
  <div class="col-sm-6 clearfix">
   {% if member.photo %}
-      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="20%" style="float: left" />
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
    {%- else -%}
       <img src="{{ site.url }}{{ site.baseurl }}/assets/img/teampic/member.png" class="img-responsive" width="25%" style="float: left" />
    {% endif %}

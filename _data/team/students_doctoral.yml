@@ -10,24 +10,39 @@
 #   github:
 #   gscholar:
 
-- name: Fabiana de Oliveira Buono
-  photo: member.png
-  info: Doctoral student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
+- name: Leonardo Fleury Orlandini
+  photo: leonardo_dt.jpg
+  info: Doctoral Student
+  email: leonardof.orlandini@gmail.com
   nationality: br
-  lattes:
-  orcid:
+  number_educ: 3
+  education1: Medical Doctor - São José do Rio Preto Medical School, FAMERP, Brazil.
+  education2: Specialization - Medical residency in General Surgery, Gynecology and Obstetrics - São José do Rio Preto Medical School, FAMERP, Brazil.
+  education3: PhD in Medicine (Obstetrics and Gynecology) - University of São Paulo, USP, Brazil
+  education4:
+  lattes: http://lattes.cnpq.br/3533410567407121
+  orcid: https://orcid.org/0000-0002-7285-6081
   github:
   gscholar:
 
-- name: Isabela Panzeri Carlotti Buzatto
-  photo: member.png
+- name: Fabiana de Oliveira Buono
+  photo: fabi_dt.jpg
   info: Doctoral student
-  email: m.ortego.larrazabal@umail.leidenuniv.nl
+  email: buono@usp.br
   nationality: br
-  lattes:
-  orcid:
-  github:
+  lattes: http://lattes.cnpq.br/5610600421797587
+  orcid: https://orcid.org/0000-0002-6259-6917 
+  github: https://github.com/BuonoFabiana
+  gscholar:
+
+- name: Isabela Panzeri Carlotti Buzatto
+  photo: Isabela_dt.jpg
+  info: Doctoral student
+  email: isabela.carlotti@usp.br
+  nationality: br
+  lattes: http://lattes.cnpq.br/1100402992887595
+  orcid: https://orcid.org/0000-0002-3441-0556
+  github: 
   gscholar:
 
 - name: Jose Antonio Vargas Costales
