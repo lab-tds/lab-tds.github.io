@@ -1,8 +1,55 @@
 - title: "Transcriptome meta-analysis reveals differences of immune profile between eutopic endometrium from stage I-{II} and {III}-{IV} endometriosis independently of hormonal milieu"
-  image: omero_thumbnail.jpg
-  description: Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.
   authors: Omero Benedicto Poli-Neto, Juliana Meola, Julio Cesar Rosa-e-Silva, and Daniel Tiezzi
+  year: 2020
   link:
     url: https://doi.org/10.1038/s41598-019-57207-y
     display: Scientific Reports (2020)
-  highlight: 1
+
+- title: "Integrated genomic and molecular characterization of cervical cancer"
+  authors: The Cancer Genome Atlas Research Network
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5354998/
+    display: Nature (2017)
+  year: 2017
+
+- title: "197P Computational pathology pipeline enables quantification of intratumor heterogeneity and tumor-infiltrating lymphocyte score"
+  authors: Tiezzi,  D.G. and Frohlich,  A. and Chahud,  F. and Pagnota,  S.
+  link:
+    url: http://dx.doi.org/10.1016/j.iotech.2023.100656
+    display: Immuno-Oncology and Technology (2023)
+  year: 2023
+
+- title: "Axillary ultrasound and fine-needle aspiration cytology to predict clinically relevant nodal burden in breast cancer patients"
+  authors: Buzatto, I.P.C. and dos Reis, F.J.C. and de Andrade, J.M. and et al.
+  year: 2021
+  link:
+    url: https://wjso.biomedcentral.com/articles/10.1186/s12957-021-02391-3#citeas
+    display: World J. Surg. Onc. (2021)
+
+- title: "The impact of COVID-19 pandemic on outcomes of women with breast cancer recurrence"
+  authors: Lindson Muhlmann and Franklin Fernandes Pimentel and Daniel Guimaraes Tiezzi and Helio Humberto Angotti Carrara and Jurandyr Moreira de Andrade and Francisco Jose Candido dos Reis
+  year: 2023
+  link:
+    url: https://www.researchsquare.com/article/rs-2898368/v1
+    display: Research Square Platform (2023)
+
+- title: "MicroRNAs miR-629-3p, miR-1202 and miR-1225-5p as potential diagnostic and surgery outcome biomarkers for mesial temporal lobe epilepsy with hippocampal sclerosis"
+  authors: D. Gattás, F.S.L. Neto, P. Freitas-Lima, and R. Bonfim-Silva, S. Malaquias Almeida, M.L. Assis Cirino, D. Guimarães Tiezzi, L.F. Tirapelli, T.R. Velasco, A.C. Sakamoto, C.M. Matias, C.G. Carlotti, D.P.C. Tirapelli
+  year: 2022
+  link:
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0028377022001023
+    display: Neurochirurgie (2022)
+
+- title: "10-year opportunistic mammographic screening scenario in Brazil and its impact on breast cancer early detection: a nationwide population-based study"
+  authors: Isabela Campeti Cuoghi, Mariana Furlani Silva Soares, Gustavo Motta Cabello Santos, and Francisco José Candido dos-Reis, Omero Benedicto Poli-Neto, Jurandyr Moreira Andrade, Priscila Longhin Bosquesi, Leonardo Fleury Orlandini, Daniel Guimarães Tiezzi 
+  year: 2022
+  link:
+    url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9564571/
+    display: Journal of Global Health (2022)
+
+- title: "Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer"
+  authors: Giovanni Ciriello, et al.
+  year: 2015
+  link:
+    url: https://pubmed.ncbi.nlm.nih.gov/26451490/
+    display: Cell (2015)

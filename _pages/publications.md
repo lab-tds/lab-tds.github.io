@@ -15,12 +15,15 @@ nav_order: 1
 
 </div>
 
-<!-- ## Full List of publications
+## Full List of publications
 
-{% for publi in site.data.publications %}
+{% assign sorted_publications = site.data.publications | sort: 'year' | reverse %}
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+{% assign current_year = nil %}
 
-{% endfor %} -->
+{% for publi in sorted_publications %}
+  {{ forloop.index }}. <strong>{{ publi.title }}</strong> <br />
+  <em>{{ publi.authors }} </em> <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+
+{% endfor %}
 

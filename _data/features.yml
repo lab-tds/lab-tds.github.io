@@ -1,6 +1,6 @@
 - title: Mammographic Screening In Brazil
   description: Data and interactive graphs on mammographic screening in the national territory referring to the study "10-year opportunistic mammographic screening scenario in Brazil and its impact on breast cancer early detection a nationwide population-based study" 
-         
+  image: assets/img/brazil_coverage.png      
   button-url: https://breastscreening.com.br/
   button-text: View data
   show: true
@@ -10,6 +10,7 @@
           Medical School - USP and the Faculty of Pharmaceutical Sciences - UNESP, is developing a national survey to collect data from women at 
           least 18 years old in order to understand how is the distribution of breast cancer cases in the Brazilian population. Supported by the 
           São Paulo Regional Office of the Brazilian Society of Mastology
+  image: assets/img/national_research.png
   button-url: http://200.144.244.198:6789/
   button-text: I would like to participate
   show: true
