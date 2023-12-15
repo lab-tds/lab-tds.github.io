@@ -3,11 +3,14 @@ layout: page
 permalink: /publications/
 title: publications
 subtitle: Publications
-description: Publications by categories in reversed chronological order.
+description: Publications in reversed chronological order.
 # Todo: Filter by categories and order
 nav: true
 nav_order: 1
 ---
+
+Go to [Full List Publications](#full-list-of-publications)
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
