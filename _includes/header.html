@@ -1,26 +1,58 @@
 <header>
-
+  
   <!-- Nav Bar -->
   <nav id="navbar"
     class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
 
-    <div class="container" style="font-size: 1.5rem; ">
-      {% if page.permalink == '/' -%}
+    <div class="container d-flex flex-column" style="font-size: 1.5rem; ">
+      
+      <div class="navbar-brand text-center">
+
+        <!-- Logo Navbar -->
+        <div class="navbar-background"></div>
+
+        <div class="d-none d-md-block">
+          <!-- <a href="{{ '/' | relative_url }}" class="d-flex align-items-center justify-content-center">
+            <img src="{{ site.url }}/assets/img/logopic/logo_lab.png" style="width: 80px;" class="mr-2" alt="Logo">
+            </a> -->
+            <a href="{{ '/' | relative_url }}" class="d-flex align-items-center justify-content-center">
+            <h1 class="post-title mt-4 mb-2"> 
+            Laboratory for <span class="font-weight-bold">Translational Data Science</span>
+            </h1>
+            </a>
+         <small> <a href="https://site.hcrp.usp.br/" class="desc font-weight-bold mt-2 mb-0">Hospital das Clínicas, Ribeirão Preto Medical School - Ribeirão Preto/SP - Brazil</a> </small>
+         <hr>
+        </div>
+        <div class="d-md-none">
+          <a href="{{ '/' | relative_url }}" class="d-flex align-items-center justify-content-center">
+            <!-- <img src="{{ site.url }}/assets/img/logopic/logo_lab.png" style="width: 60px;" class="mr-2" alt="Logo">
+          </a> -->
+          <h4 class="post-title mb-0 mt-4">
+            Lab for <span class="font-weight-bold">TDS</span>
+          </h4>
+          </a>
+          <small> <a href="https://site.hcrp.usp.br/" class="desc font-weight-lighter mt-4 mb-0">Ribeirão Preto Medical School - Brazil</a> </small>
+        </div>
+      </div>
+      
+
+      <!-- {% if page.permalink == '/' -%}
       <a href="https://www5.usp.br/"><img src="{{ site.baseurl }}/assets/img/logopic/logo_usp.jpg"
           style="margin:1%; width: 110px;"></a>
       {%- endif -%}
 
       {% if page.permalink != '/' -%}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-        <!-- {{- site.title -}} -->
+        
         <img src="{{ site.baseurl }}/assets/img/logopic/logo_lab2.png" style="margin: 1%; width: 450px;">
       </a>
       {%- elsif site.enable_navbar_social -%}
       <!-- Social Icons -->
-      <div class="navbar-brand social">
+      <!-- <div class="navbar-brand social">
         {% include social.html %}
       </div>
-      {% endif %}
+      {% endif %} -->
+
       <!-- Navbar Toggle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +62,7 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
+      <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
 
           {%- for page in site.pages -%}
@@ -47,17 +79,6 @@
               {%- endif -%}
             </a>
           </li>
-
-          <!-- {% if site.blog_nav_title %}
-              <!-- Blog
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %} -->
 
           <!-- Other pages -->
           {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -94,12 +115,12 @@
           {%- if site.enable_darkmode %}
 
           <!-- Toogle theme mode -->
-          <!-- <li class="toggle-container">
+           <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </button>
-              </li> -->
+              </li> 
           {%- endif %}
         </ul>
       </div>

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: Hospital das Clínicas, Ribeirão Preto Medical School - Ribeirão Preto/SP - Brazil
 
@@ -11,7 +11,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
   <div class="container mt-4 mb-4">
-      <p class="custom-text">Data science is an emerging and promising field in solving problems that affect humanity. Our group has dipped into this new, challenging and amazing world, trying to contribute to the understanding and, where possible, the solution of epidemiological, biological and computational problems, especially, but not only, those focused on women's health.</p>
+      <p class="custom-text">Welcome to the Laboratory for Translational Data Science! Our team is dedicated to exploring the dynamic and exciting realm of Data Science—an emerging and promising field that plays a pivotal role in addressing complex challenges impacting humanity. We are committed to advancing the comprehension and, whenever feasible, the resolution of epidemiological, biological, and computational issues. Our focus extends to matters related to women's health, among other critical areas. Join us on this journey as we unlock new insights and make meaningful contributions to the world through the power of data.</p>
   </div>
 
 <!-- Carousel -->
@@ -58,7 +58,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!--Cards About-->
 <div class="container mb-4">
-      <p class="custom-text mt-4" style="margin: 1%">Our research focuses on Pelvic Pain and Gynecological Tumors, especially on the analysis of epidemiological, molecular, and genomic data on a large scale from endometriosis and breast and ovarian cancer. Broadly, we aim to generate new scientific evidences which can impact clinical practice, healthcare and public health policy.</p> 
+      <p class="custom-text mt-4" style="margin: 1%">Our research focuses on Pelvic Pain and Gynecological Tumors, especially on the analysis of epidemiological, molecular, and genomic data on a large scale from endometriosis and breast and ovarian cancer. Broadly, we aim to generate new scientific evidence that can impact clinical practice, healthcare, and public health policy. Join us in our pursuit of advancing knowledge and making a lasting impact on the field of women's health.</p> 
 </div>
 
 ## Principal Investigators
@@ -75,7 +75,6 @@ social: true  # includes social icons at the bottom of the page
     <div class="card-body">
       <a href="{{ site.baseurl }}/team/#Reseachers"> <h2 class="card-title text-center" style="font-size: 1.5rem;">Omero Benedicto Poli Neto</h2></a>
       <h1 class="card-text text-center font-weight-bold" style="font-size: 1.0rem;">Gynecologic surgery, Oncogynecology and Data Science</h1>
-      <p class="card-text text-center" style="font-size: 0.9rem;">Associate Professor of the Gynecology and Obstetrics Department Ribeirão Preto Medical School – University of Sao Paulo. Center of Chronic Pelvic Pain and Minimally Invasive Gynecological Surgery</p>
     </div>
   </div>
   </div>
@@ -85,7 +84,6 @@ social: true  # includes social icons at the bottom of the page
     <div class="card-body text-center">
       <a href="{{ site.baseurl }}/team/#Reseachers"><h2 class="card-title" style="font-size: 1.5rem;">Daniel Guimarães Tiezzi</h2></a>
       <p class="card-text text-center font-weight-bold" style="font-size: 1.0rem;">Clinical oncology, Mastology and Data Science</p>
-      <p class="card-text text-center" style="font-size: 0.9rem;">Associate Professor of the Gynecology and Obstetrics Department Ribeirão Preto Medical School – University of Sao Paulo. Center of Pelvic Oncology and Mastology</p>
     </div>
     </div>
   </div>
